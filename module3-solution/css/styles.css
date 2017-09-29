@@ -10,6 +10,7 @@ body {
   background-color: #00ffff;
   border-radius: 0;
   border: 0;
+  padding-bottom: 20px;
 }
 
 #logo-img {
@@ -63,6 +64,14 @@ body {
 
 #content {
   background-color: #550055;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 300px;
+}
+
+#menu {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
