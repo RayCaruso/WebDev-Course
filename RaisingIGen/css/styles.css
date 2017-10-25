@@ -1,0 +1,147 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  /* background-color: #003300;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+#nav-list a {
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: white;
+}
+
+#content {
+  background-color: #550055;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 300px;
+}
+#top-content {
+  background-color: #FFFFFF;
+  margin-left: 20px;
+
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 300px;
+
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+
+  text-align: center;
+}
+
+#top-content .div .img {
+
+  border-style: solid;
+  border-left-width: medium;
+}
+
+/*
+#main-content {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+*/
+
+.container .jumbotron {
+/*  box-shadow: 0 0 50px #3F0C1F;*/
+/*  border: 2px solid #3F0C1F; */
+  background-color: white;
+}
+
+.container .jumbotron img {
+
+  dislay: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#body-text h2 {
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+#body-text p {
+  fong-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  /*
+  .jumbotron {
+    background: url('../images/Logo/Logo-Dark-800.png') no-repeat;
+    height: 675px;
+    align-content: center;
+  }
+*/
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*
+  .jumbotron {
+    background: url('../images/Logo/Logo-Dark-600.png') no-repeat;
+    height: 558px;
+
+  */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*
+  .jumbotron {
+    background-image: url('../images/Logo/Logo-Dark-600x334.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    dislay: block;
+    margin-left: auto;
+    margin-right: auto;
+   height: 432px;
+
+  }
+  */
+
+}
